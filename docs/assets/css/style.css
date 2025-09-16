@@ -55,6 +55,14 @@
   font-style: normal;
 }
 
+ @font-face {
+  font-family: 'MolplastBC';
+  src: url('../fonts/fonts/HelveticaNeueLTStd-BdCn.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300;400;500;600;700&display=swap");
 :root {
   /*--mol-rojo: #bb2027;*/
@@ -161,6 +169,10 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: "Teko", sans-serif;
   font-weight: 500;
   line-height: 1.2;
+}
+
+.titulos{
+  font-family: "MolplastBC",sans-serif !important;
 }
 
 .capacidad{
@@ -15994,7 +16006,8 @@ input, textarea {
 }
 @media (min-width: 1200px) {
   .section-content .sub-title {
-    font-size: 60px;
+    font-size: 32px;
+    font-family: "Molplast" sans-serif !important;
   }
 }
 .section-content p {
@@ -16582,13 +16595,13 @@ input, textarea {
 @media (min-width: 1200px) {
   .hero-slider-single-item .title {
     font-size: 85px;
-    line-height: 0.85;
+    line-height: 0.95;
   }
 }
 @media (min-width: 1400px) {
   .hero-slider-single-item .title {
     font-size: 140px;
-    line-height: 0.85;
+    line-height: 0.95;
     margin-bottom: -10px;
   }
 }

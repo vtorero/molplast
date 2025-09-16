@@ -57,8 +57,9 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300;400;500;600;700&display=swap");
 :root {
-  --mol-rojo: #bb2027;
-  --mol-azul: #293a8a;
+  /*--mol-rojo: #bb2027;*/
+  --mol-rojo: #da1a23;
+  --mol-azul: #0a2282;
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -15546,7 +15547,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Teko", sans-serif;
+  font-family: "Molplast", sans-serif;
 }
 
 ol,
@@ -17011,6 +17012,7 @@ input, textarea {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 }
 @media (min-width: 1200px) {
@@ -17035,7 +17037,7 @@ input, textarea {
 }
 .service-single-item .content .title {
   font-size: 22px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Molplast", sans-serif;
   font-weight: 600;
   text-transform: capitalize;
   color: var(--mol-azul);
